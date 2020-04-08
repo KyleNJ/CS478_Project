@@ -170,3 +170,7 @@ C:\Users\mbudimovsk\OneDrive - University of Southern Indiana\Desktop\Backup\log
 C:\Users\mbudimovsk\OneDrive - University of Southern Indiana\Desktop\Backup\login\login\obj\Debug\login.csproj.CopyComplete
 C:\Users\mbudimovsk\OneDrive - University of Southern Indiana\Desktop\Backup\login\login\obj\Debug\login.dll
 C:\Users\mbudimovsk\OneDrive - University of Southern Indiana\Desktop\Backup\login\login\obj\Debug\login.pdb
+C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.csprojAssemblyReference.cache
+C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.csproj.CoreCompileInputs.cache
+C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.dll
+C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.pdb
