@@ -33,6 +33,16 @@
             .auto-style1 {
                 width: 326px;
             }
+                .auto-style2 {
+                    height: 26px;
+                }
+                .auto-style3 {
+                    width: 326px;
+                    height: 35px;
+                }
+                .auto-style4 {
+                    height: 35px;
+                }
         </style>
      
 </head>
@@ -47,31 +57,66 @@
  
             <table style="width:100%;">
                 <tr>
-                    <td class="auto-style1">
-                        <asp:Button ID="Button1" runat="server" Text="Change first name" />
+                    <td class="auto-style3">
+                        <asp:Button ID="Button1" runat="server" Text="Change First Name" OnClick="Button1_Click" />
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:TextBox ID="TextBox1" runat="server">Enter new first name</asp:TextBox>
+                    </td>
+                    <td class="auto-style4"></td>
                 </tr>
                 <tr>
                     <td class="auto-style1">
-                        <asp:Button ID="Button2" runat="server" Text="Change last name" />
+                        <asp:Button ID="Button2" runat="server" Text="Change Last Name" OnClick="Button2_Click" />
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:TextBox ID="TextBox2" runat="server">Enter new Last name</asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">
-                        <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" Visible="False" AutoPostBack="true">
-                             <asp:ListItem Selected="True" Value="White"> White </asp:ListItem>
-                             <asp:ListItem Value="Silver"> Silver </asp:ListItem>
-                             <asp:ListItem Value="DarkGray"> Dark Gray </asp:ListItem>
-                             <asp:ListItem Value="Khaki"> Khaki </asp:ListItem>
-                             <asp:ListItem Value="DarkKhaki"> Dark Khaki </asp:ListItem>
-                        </asp:DropDownList>
+                    <td class="auto-style2">
+
+                        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Change Email" />
+
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:TextBox ID="TextBox3" runat="server">Enter new Email</asp:TextBox>
+                    </td>
+                    <td class="auto-style2"></td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Change Password" />
+
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox4" runat="server">Enter new Password</asp:TextBox>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Change Username" />
+
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox5" runat="server">Enter new Username</asp:TextBox>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Change Date of Birth" />
+
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox6" runat="server">Enter New Date of Birth</asp:TextBox>
+                    </td>
+                    <td></td>
                 </tr>
             </table>
  
