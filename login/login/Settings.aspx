@@ -58,7 +58,7 @@
             <table style="width:100%;">
                 <tr>
                     <td class="auto-style3">
-                        <asp:Button ID="Button1" runat="server" Text="Change First Name" OnClick="Button1_Click" />
+                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Update settings" />
                     </td>
                     <td class="auto-style4">
                         <asp:TextBox ID="TextBox1" runat="server">Enter new first name</asp:TextBox>
@@ -67,8 +67,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style1">
-                        <asp:Button ID="Button2" runat="server" Text="Change Last Name" OnClick="Button2_Click" />
-                    </td>
+                        &nbsp;</td>
                     <td>
                         <asp:TextBox ID="TextBox2" runat="server">Enter new Last name</asp:TextBox>
                     </td>
@@ -77,9 +76,7 @@
                 <tr>
                     <td class="auto-style2">
 
-                        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Change Email" />
-
-                    </td>
+                        &nbsp;</td>
                     <td class="auto-style2">
                         <asp:TextBox ID="TextBox3" runat="server">Enter new Email</asp:TextBox>
                     </td>
@@ -88,9 +85,7 @@
                 <tr>
                     <td>
 
-                        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Change Password" />
-
-                    </td>
+                        &nbsp;</td>
                     <td>
                         <asp:TextBox ID="TextBox4" runat="server">Enter new Password</asp:TextBox>
                     </td>
@@ -99,9 +94,7 @@
                 <tr>
                     <td>
 
-                        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Change Username" />
-
-                    </td>
+                        &nbsp;</td>
                     <td>
                         <asp:TextBox ID="TextBox5" runat="server">Enter new Username</asp:TextBox>
                     </td>
@@ -110,9 +103,7 @@
                 <tr>
                     <td>
 
-                        <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Change Date of Birth" />
-
-                    </td>
+                        &nbsp;</td>
                     <td>
                         <asp:TextBox ID="TextBox6" runat="server">Enter New Date of Birth</asp:TextBox>
                     </td>

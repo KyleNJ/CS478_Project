@@ -16,38 +16,9 @@ namespace login
 
         }
 
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-            string ins5 = "Insert into [User]( Email) value('" + TextBox3.Text "')";
-            SqlCommand com5 = new SqlCommand(ins5, con2);
-            con2.Open();
-            com5.ExecuteNonQuery();
-            con2.Close();
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string ins2 = "Insert into [Table](Name,  Email_Id, Password) values('" + TextBox1.Text);
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button6_Click(object sender, EventArgs e)
-        {
-
+            string ins = "Insert into [User](Email, Username, Password, First name, Last name, Birth date) values('" + TextBox3.Text + "','" + TextBox5.Text + "','" + TextBox1.Text + "','" + TextBox2.Text + "','" + TextBox4.Text + "')";
         }
     }
 }
