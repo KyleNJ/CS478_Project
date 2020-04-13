@@ -4,27 +4,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Your Home Page</title>
     <link href="css/bootstrap.css" rel="stylesheet" />
     <style>
         .auto-style3 {
             width: 1100px;
             height: 50px;
             margin-bottom: 0px;
-            background-color:#325fca
+            background-color:#545fe6
         }
         .auto-style4 {
             height: 50px;
             width: 197px;
             margin-bottom: 0px;
-            background-color: #1650d9
+            background-color:#ffffff
         }
         
         .auto-style5 {
             width: 1478px;
             height: 50px;
             margin-bottom: 0px;
-            background-color:#1650d9
+            background-color:#ffffff
         }
         
     </style>
@@ -37,8 +37,8 @@
                 <img src="Images/TheMainLogo.png" style="height: 57px; width: 60px" />
             </td>
             <td class="auto-style5">Secure Banking</td>
-                <td style="text-align:right" class="auto-style3">
-                    <asp:ImageButton ID="ImageButton1" runat="server" Height="46px" ImageUrl="~/Images/Logout.png" Width="57px" />
+                <td style="text-align:right" class="auto-style5">
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="46px" ImageUrl="~/Images/Logout.png" Width="57px" OnClick="ImageButton1_Click" PostBackUrl="~/Login.aspx" />
                     <asp:Label ID="Label1" runat="server" Text="Log Out"></asp:Label>
 
                 </td>
@@ -51,8 +51,8 @@
                 </td>
                  </tr>
             <tr style="width:1100px;height:40px;">
-                <td colspan="3">
-                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <td colspan="3" class="auto-style3">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BackColor="#545FE6" Font-Bold="True">
                         <Items>
                             <asp:MenuItem Text="Account" Value="Account" NavigateUrl="~/Account.aspx"></asp:MenuItem>
                             <asp:MenuItem Text="Transfer" Value="Transfer" NavigateUrl="~/Transfer.aspx"></asp:MenuItem>
