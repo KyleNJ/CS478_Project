@@ -49,8 +49,10 @@
             <h2>
                Register
            </h2>
+             <asp:TextBox ID="txtuser" CssClass="input" placeholder="Username" runat="server" BackColor="Transparent" ></asp:TextBox><br /><br />
            <asp:TextBox ID="txtname" CssClass="input" placeholder="Name" runat="server" BackColor="Transparent" ></asp:TextBox><br /><br /> 
-          
+           <asp:TextBox ID="txtln" CssClass="input" placeholder="Lastname" runat="server" BackColor="Transparent" ></asp:TextBox><br /><br />
+             <asp:TextBox ID="txtDOB" CssClass="input" placeholder="Date of Birth" runat="server" BackColor="Transparent" ></asp:TextBox><br /><br />
             <asp:TextBox ID="txtemail"  CssClass="input" placeholder="E-mail" runat="server" BackColor="Transparent" ></asp:TextBox><br /><br />
              <asp:TextBox ID="txtpass"  CssClass="input" placeholder="Password" TextMode="Password" runat="server" BackColor="Transparent"></asp:TextBox><br /><br />
              

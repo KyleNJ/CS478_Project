@@ -20,7 +20,7 @@ namespace login
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-          string ins = "Insert into [Table](Name,  Email_Id, Password) values('"+ txtname.Text + "','" + txtemail.Text + "','" + txtpass.Text + "')";
+          string ins = "Insert into [User](Email, Username, Password, Name, Lastname, Birthdate) values('"+ txtemail.Text + "','" + txtuser.Text + "','"+txtpass.Text+ "','" + txtname.Text + "','"+ txtln.Text +"','"+ txtDOB.Text +"')";
            // string ins = "Insert into [Table](Name,  Email_Id, Password) values(" + txtname.Text + ",''" + txtemail.Text + ",''" + txtpass.Text + ")";
 
             //   string ins = "Insert into [Table](Name,  Email_Id, Password) values('Han', 'xhan@usi.edu', '123')";

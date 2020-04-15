@@ -18,10 +18,11 @@ namespace login
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string check = "select count (*) from [Table] where Email = '" + txtuser.Text +"', and Password ='" +txtpass.Text+ "' ";
+            string check = "select count (*) from [User] where Email = '" + txtuser.Text +"' and Password ='" +txtpass.Text+ "' ";
             SqlCommand com = new SqlCommand(check, con);
             con.Open();
-            int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
+           
+            int temp = Convert.ToInt32(com.ExecuteScalar());
             con.Close();
             if(temp==1)
             {
