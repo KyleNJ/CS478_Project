@@ -174,3 +174,7 @@ C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.csproj
 C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.csproj.CoreCompileInputs.cache
 C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.dll
 C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.pdb
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.csprojAssemblyReference.cache
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.csproj.CoreCompileInputs.cache
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.dll
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.pdb

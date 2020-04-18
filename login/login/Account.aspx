@@ -64,7 +64,7 @@
            
         </table>
    
-        <div style="height: 327px">
+        <div style="height: 327px" class="text-center">
             Manage your Credit Cards<br />
             <br />
             <br />
@@ -73,9 +73,12 @@
             <br />
             <br />
             <!-- Add Credit Card Button Leads to the CardRegistration Page-->
-                &nbsp;<asp:Button ID="CreditCardsbtn" runat="server" Text="Add Credit Cards" OnClick="~/CardRegistration.aspx" BackColor="#33CC33" Font-Bold="True" />
+                &nbsp;<asp:Button ID="CreditCardsbtn" runat="server" Text="Add Credit Cards" OnClick="~/CardRegistration.aspx" BackColor="#33CC33" Font-Bold="True" PostBackUrl="~/CardRegistration.aspx" />
             <asp:Button ID="Button1" runat="server" Text="Remove Credit Cards" Width="211px" BackColor="#CC0000" Font-Bold="True" />
         </div>
+    
+    <p class="text-center">
+        &nbsp;</p>
     
 </body>
 </html>

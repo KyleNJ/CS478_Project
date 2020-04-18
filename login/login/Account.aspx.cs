@@ -19,12 +19,5 @@ namespace login
 
         }
 
-        protected void ~/CardRegistration.aspx()
-        {
-protected void ~/CardRegistration.aspx()
-        {
-
-        }
-    }
     }
 }
