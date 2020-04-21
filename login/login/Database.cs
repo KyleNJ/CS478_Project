@@ -10,7 +10,7 @@ namespace login
     public class Database : DbContext
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<Creditcard> Creditcards { get; set; }
+        public DbSet<creditcard> Creditcards { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
            => options.UseSqlite("Data Source=database.db");
     }

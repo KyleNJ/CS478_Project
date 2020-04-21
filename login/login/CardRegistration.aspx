@@ -61,18 +61,26 @@ hr {
 
 
 
-</style>
+        .auto-style1 {
+            width: 1904px;
+            height: 67px;
+        }
+
+
+
+
+    </style>
     <title>Secure Banking - Card Registration</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="container">
-            <tr style="width:1100px;">
-            <td class="auto-style4">
-                <img src="Images/TheMainLogo.png" style="height: 57px; width: 60px" />
-            </td>
-           
-            </tr>
+            <div style="width: 1100px;">
+                <div class="auto-style1">
+                    <img src="Images/TheMainLogo.png" style="height: 57px; width: 60px" />
+                </div>
+
+            </div>
     <h1>Credit Card Registration</h1>
     <p>Please fill in this form to add a card to your account.</p>
           
@@ -90,24 +98,32 @@ hr {
         <asp:ListItem>U.S. Bank</asp:ListItem>
         <asp:ListItem>Visa</asp:ListItem>
 
-    </asp:DropDownList> <br /><br />
+    </asp:DropDownList> <br />
+          
+            <br />
+
+    <asp:label for="UName" runat="server"><b>User Name</b></asp:label>
+    <asp:TextBox ID="UName" runat="server" text="Enter Your UserName" />
 
     <asp:label for="UID" runat="server"><b>User ID (Email)</b></asp:label>
-    <input type="text" placeholder="Enter Your User ID" name="UID" />
+    <asp:TextBox ID="UID" runat="server" text="Enter Your User ID" />
 
     <asp:label for="cHolder" runat="server"><b>Card Holder</b></asp:label>
-    <input type="text" placeholder="Enter Name of Card Holder" name="cHolder" />
+    <asp:TextBox ID="cHolder" runat="server" text="Enter Name of Card Holder" />
 
     <asp:label for="ccNumber" runat="server"><b>Credit Card Number</b></asp:label>
-    <input type="text" placeholder="Enter Credit Card Number" name="ccNumber" />
+    <asp:TextBox ID="ccNumber" runat="server" text="Enter Credit Card Number" />
 
     <asp:label for="CCW" runat="server"><b>CCW</b></asp:label>
-    <input type="text" placeholder="Enter CCW" name="CCW" />
+    <asp:TextBox ID="CCW" runat="server" text="Enter CCW" />
 
     <asp:label for="cExpDate" runat="server"><b>Card Expiration Date</b></asp:label>
-    <input type="text" placeholder="0/00/00" name="cExpDate" />
+    <asp:TextBox ID="cExpDate" runat="server" text="00/00/0000" />
 
-    <button type="submit" class="registerbtn" runat="server">Add Card</button>
+    <asp:Button ID="regbtn" class="registerbtn" runat="server" Text="Add Card" OnClick="regbtn_Click"/>
+            
+            <asp:Button ID="cnclbtn" runat="server" Text="Cancel" PostBackUrl="~/HomePage.aspx" />
+            
   </div>
   
   
