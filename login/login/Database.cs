@@ -32,6 +32,7 @@ namespace login
         public string Username{ get; set; }
         public int Cardnumber { get; set; }
         public int Code { get; set; }
+        public int balance { get; set; } 
     }
     public class Bank
     {
