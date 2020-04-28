@@ -23,17 +23,21 @@ namespace login
         //AddCard func
         protected void regbtn_Click(object sender, EventArgs e)
         {
-            con.Open();
-            SqlCommand cmd = new SqlCommand("insert into Credit Card values('"+UID.Text+"','"+Convert.ToInt32(ccNumber.Text)+"','"+Convert.ToInt32(CCW.Text)+"','" + Convert.ToDateTime(cExpDate.Text) +"', '"+cHolder.Text+"','" +UName.Text+"')", con);
-            int i = cmd.ExecuteNonQuery();
-            if(i>0)
-            {
-                Response.Write("<script>alert(' Card Successfully Registered ')</script>");
-            }
-            else
-            {
-                Response.Write("<script>alert(' A Problem Has Occurred ')</script>");
-            }
+            RegisterEntities db = new RegisterEntities();
+
+            Credit_Card objuse = new Credit_Card();
+            objuse.Email = UID.Text;
+            objuse.Card_number = Convert.ToInt32(ccNumber.Text);
+            objuse.Security_code = Convert.ToInt32(CCW.Text);
+            objuse.Expiration_date = Convert.ToDateTime(cExpDate.Text);
+            objuse.Card_holder_s_name = cHolder.Text;
+            objuse.Username = UName.Text;
+
+            db.SaveChanges();
+
+            //con.Open();
+            //SqlCommand cmd = new SqlCommand("insert into Credit Card values('"+UID.Text+"','"+Convert.ToInt32(ccNumber.Text)+"','"+Convert.ToInt32(CCW.Text)+"','" + Convert.ToDateTime(cExpDate.Text) +"', '"+cHolder.Text+"','" +UName.Text+"')", con);
+            
         }
     }
 }

@@ -29,6 +29,7 @@
     </style>
 </head>
 <body style="height: 1130px">
+    <form id="form1" runat="server">
     <table style="width:1100px; margin:0 auto">
              <tr style="width: 1100px; ">
             <td class="auto-style4">
@@ -36,7 +37,7 @@
             </td>
             <td class="auto-style5">Secure Banking</td>
                 <td style="text-align:right" class="auto-style5">
-                    <asp:ImageButton ID="ImageButton1" runat="server" Height="46px" ImageUrl="~/Images/Logout.png" Width="57px" OnClick="ImageButton1_Click" PostBackUrl="~/Login.aspx" />
+                    
                     <asp:Label ID="Label1" runat="server" Text="Log Out"></asp:Label>
 
                 </td>
@@ -73,12 +74,14 @@
             <br />
             <br />
             <!-- Add Credit Card Button Leads to the CardRegistration Page-->
-                &nbsp;<asp:Button ID="CreditCardsbtn" runat="server" Text="Add Credit Cards" OnClick="~/CardRegistration.aspx" BackColor="#33CC33" Font-Bold="True" PostBackUrl="~/CardRegistration.aspx" />
-            <asp:Button ID="Button1" runat="server" Text="Remove Credit Cards" Width="211px" BackColor="#CC0000" Font-Bold="True" />
+                <asp:Button ID="btnAddCard" runat="server" PostBackUrl="~/CardRegistration.aspx" Text="Add Credit Cards" BackColor="#33CC33" Font-Bold="True" />
+                &nbsp;<asp:Button ID="btnRemoveCard" runat="server" Text="Remove Credit Cards" Width="199px" BackColor="#CC0000" Font-Bold="True" CssClass="mt-0" Height="34px" />
         </div>
     
     <p class="text-center">
         &nbsp;</p>
+    
+    </form>
     
 </body>
 </html>

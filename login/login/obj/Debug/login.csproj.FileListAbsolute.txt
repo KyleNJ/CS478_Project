@@ -418,3 +418,9 @@ C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\bin\System.Runtime.Com
 C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\beckm\Documents\GitHub\CS478_Project\login\login\obj\Debug\login.csproj.CopyComplete
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\bin\EntityFramework.dll
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\bin\EntityFramework.SqlServer.dll
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\bin\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\bin\EntityFramework.xml
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\bin\EntityFramework.SqlServer.xml
+C:\Users\Jenson\Documents\GitHub\CS478_Project\login\login\bin\Microsoft.EntityFrameworkCore.Design.xml

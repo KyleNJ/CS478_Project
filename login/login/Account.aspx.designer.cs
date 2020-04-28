@@ -15,13 +15,13 @@ namespace login
     {
 
         /// <summary>
-        /// ImageButton1 control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// Label1 control.
@@ -69,21 +69,21 @@ namespace login
         protected global::System.Web.UI.WebControls.Menu Menu1;
 
         /// <summary>
-        /// CreditCardsbtn control.
+        /// btnAddCard control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CreditCardsbtn;
+        protected global::System.Web.UI.WebControls.Button btnAddCard;
 
         /// <summary>
-        /// Button1 control.
+        /// btnRemoveCard control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnRemoveCard;
     }
 }
