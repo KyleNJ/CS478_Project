@@ -10,7 +10,7 @@ namespace login
 {
     public partial class Settings : System.Web.UI.Page
     {
-        SqlConnection con2 = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Register.mdf;Integrated Security=True");
+        
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -18,7 +18,16 @@ namespace login
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string ins = "Insert into [User](Email, Username, Password, First name, Last name, Birth date) values('" + TextBox3.Text + "','" + TextBox5.Text + "','" + TextBox1.Text + "','" + TextBox2.Text + "','" + TextBox4.Text + "')";
+            RegisterEntities db = new RegisterEntities();
+
+            User objuse = new User();
+            objuse.Email = TextBox3.Text;
+            objuse.First_name = TextBox1.Text;
+            objuse.Last_name = TextBox2.Text;
+            objuse.Password = TextBox4.Text;
+            objuse.Username = TextBox5.Text;
+
+            db.SaveChanges();
         }
     }
 }

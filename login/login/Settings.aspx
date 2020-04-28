@@ -104,9 +104,6 @@
                     <td>
 
                         &nbsp;</td>
-                    <td>
-                        <asp:TextBox ID="TextBox6" runat="server">Enter New Date of Birth</asp:TextBox>
-                    </td>
                     <td></td>
                 </tr>
             </table>
